@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(120deg, #ddd9d9 0%, #0e0d0c 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 25%;
+  margin-top: 10%;
+}
+
+.postn {
+  width: 50%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+/* NAvBAR */
+
+.nav {
+  margin-right: 5%;
+}
+
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}

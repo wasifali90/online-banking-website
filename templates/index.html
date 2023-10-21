@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CDNS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../static/images/logo_small.png"
+    />
+    <link rel="stylesheet" href="../static/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Global Online Bank</title>
+  </head>
+  <body>
+    <!-- NavBAr -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <div class="logo-image">
+                  <img src="../static/images/11.png" class="img-fluid">
+                  
+            </div>
+            </a>
+            <a class="navbar-brand" href="/">Global Online Bank</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="http://127.0.0.1:5502/templates/homepage.html"
+                  >Home </a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="http://127.0.0.1:5502/templates/transactionHIstory.html">View All Customers</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="http://127.0.0.1:5502/templates/transfer.html">Transfer</a>
+              </li>
+              
+                </ul>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <!-- NavbarEND -->
+
+
+    <!-- COurosel -->
+    <section class="carousel">
+    
+    <div id="carouselExampleIndicators" class="carousel slide       ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../static/images/1pic.jpg" class="d-block w-100" alt="bank1">
+          </div>
+          <div class="carousel-item">
+            <img src="../static/images/2pic.jpg" class="d-block w-100" alt="bank2">
+          </div>
+          <div class="carousel-item">
+            <img src="../static/images/3pic.png" class="d-block w-100" alt="bank3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+    
+    <!-- courousel end -->
+
+
+    <section id="features">
+        <div class="row">
+        <div class="feature-box col-lg-4">
+            <i class="Icon fa-solid fa-vault fa-4x"></i>
+          </i><h3>Easy to use.</h3>
+          
+        </div>
+  
+        <div class="feature-box col-lg-4">
+            <i class="Icon fa-solid fa-money-bills fa-4x"></i>
+          <h3>Loans</h3>
+          <p>all kind of loans needed to customers.</p>
+        </div>
+  
+        <div class="feature-box col-lg-4">
+          <i class="Icon fa-solid fa-heart fa-4x"></i>        
+          <h3>Customer Service</h3>
+          <p></p>
+        </div>
+      </div>
+      </section>
+
+
+
+    <hr>
+    
+    <footer id="footer">
+        <i class="ftr-icons fa-2x fa-brands fa-twitter"></i>
+        <i class="ftr-icons fa-2x fa-brands fa-instagram"></i>
+        <i class="ftr-icons fa-2x fa-solid fa-envelope"></i>
+        <p>Made by Wasif Ali</p>
+      </footer>
+    
+
+
+
+
+
+    
+
+
+
+  </body>
+</html>
